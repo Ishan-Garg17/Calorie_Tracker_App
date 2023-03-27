@@ -76,7 +76,7 @@ function CalorieForm(props: any) {
       <div className="">
         <input
           min={0}
-          max={5000}
+          max={10000}
           onChange={(e) => setFoodPrice(e.target.value)}
           type="number"
           placeholder="Price"

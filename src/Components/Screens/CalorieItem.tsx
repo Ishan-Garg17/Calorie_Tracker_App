@@ -70,13 +70,14 @@ function CalorieItem(props: FoodEntry) {
             <label>Edit Name</label>
             <input
               value={foodName}
+              minLength={4}
               onChange={(e) => setfoodName(e.target.value)}
               type="text"
             />
             <label>Edit Price</label>
             <input
               min={0}
-              max={4000}
+              max={10000}
               value={foodPrice}
               onChange={(e) => setfoodPrice(Number(e.target.value))}
               type="number"
