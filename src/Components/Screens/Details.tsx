@@ -6,7 +6,7 @@ import CalorieTracker from "./CalorieTracker";
 import "./details.scss";
 import FilterDate from "./FilterDate";
 import Pagination from "./Pagination";
-import { FoodEntry } from "./types/types";
+import { FoodEntry } from "../../types/types";
 
 type MetaType = {
   total: number;

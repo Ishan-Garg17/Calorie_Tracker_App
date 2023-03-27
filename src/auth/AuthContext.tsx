@@ -2,7 +2,7 @@ import React from "react";
 import jwt_decode from "jwt-decode";
 // import { User } from "../Components/Home/types/types";
 import { createContext, useEffect, useState } from "react";
-import { AuthContextProviderProps } from "../Components/Screens/types/types";
+import { AuthContextProviderProps } from "../types/types";
 interface User {
   id?: number;
   name?: string;

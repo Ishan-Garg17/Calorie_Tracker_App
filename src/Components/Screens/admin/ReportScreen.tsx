@@ -1,9 +1,9 @@
 import React, { Key, useContext } from "react";
 import { useState, useEffect } from "react";
 import { useParams } from "react-router";
-import AuthContext from "../../auth/AuthContext";
+import AuthContext from "../../../auth/AuthContext";
 import "./reportScreen.scss";
-import { FoodEntry } from "./types/types";
+import { FoodEntry } from "../../../types/types";
 
 interface ReportData {
   lastWeekEntries: FoodEntry[];

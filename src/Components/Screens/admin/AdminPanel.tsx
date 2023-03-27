@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { useContext } from "react";
 import { useNavigate } from "react-router";
-import AuthContext from "../../auth/AuthContext";
+import AuthContext from "../../../auth/AuthContext";
 import UserList from "./UserList";
 import "./admin.scss";
-import { User } from "./types/types";
+import { User } from "../../../types/types";
 
 const AdminPanel = () => {
   const navigate = useNavigate();

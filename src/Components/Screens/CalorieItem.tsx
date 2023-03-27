@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useEffect, useContext } from "react";
 import AuthContext from "../../auth/AuthContext";
-import { FoodEntry } from "./types/types";
+import { FoodEntry } from "../../types/types";
 
 function CalorieItem(props: FoodEntry) {
   const [editItem, setEditItem] = useState(false);

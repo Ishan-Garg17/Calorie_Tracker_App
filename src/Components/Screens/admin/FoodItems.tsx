@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useContext } from "react";
 import { useParams } from "react-router-dom";
-import AuthContext from "../../auth/AuthContext";
-import CaloriesList from "./CaloriesList";
-import { FoodEntry } from "./types/types";
+import AuthContext from "../../../auth/AuthContext";
+import CaloriesList from "../CaloriesList";
+import { FoodEntry } from "../../../types/types";
 
 function FoodItems() {
   let { id } = useParams<{ id: string }>();

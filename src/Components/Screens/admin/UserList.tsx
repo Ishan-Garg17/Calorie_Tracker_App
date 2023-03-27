@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import AuthContext from "../../auth/AuthContext";
-import { User } from "./types/types";
+import AuthContext from "../../../auth/AuthContext";
+import { User } from "../../../types/types";
 import axios from "axios";
 
 interface UserListProps {

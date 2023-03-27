@@ -1,6 +1,6 @@
 import React from "react";
 import CalorieItem from "./CalorieItem";
-import { FoodEntry } from "./types/types";
+import { FoodEntry } from "../../types/types";
 
 export interface CalorieListProps {
   data: FoodEntry[];

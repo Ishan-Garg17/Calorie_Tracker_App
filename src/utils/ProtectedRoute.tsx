@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import AuthContext from "../auth/AuthContext";
-import { AuthContextProviderProps } from "../Components/Screens/types/types";
+import { AuthContextProviderProps } from "../types/types";
 
 const ProtectedRoute: React.FC<AuthContextProviderProps> = (props) => {
   const navigate = useNavigate();
