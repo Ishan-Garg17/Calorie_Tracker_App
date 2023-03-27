@@ -1,0 +1,20 @@
+.home_container{
+       height: 93vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 72px;
+    // border: 2px solid black;
+    align-items: center;
+}
+.form_card{
+    // padding: 40px;
+        // border: 2px solid gray;
+    background-color: rgb(182 217 255);
+    background: url(https://images.unsplash.com/photo-1673184502695-d4fe666cd50f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+    background-size: cover;
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

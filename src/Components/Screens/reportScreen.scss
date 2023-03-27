@@ -1,0 +1,32 @@
+.food-entries-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.food-entries-container h2 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.food-entries-container div {
+  border: 1px solid black;
+  padding: 16px;
+  margin-bottom: 16px;
+  max-width: 500px;
+}
+
+.food-entries-container div p {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.food-entries-container div ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.food-entries-container div li {
+  margin-bottom: 8px;
+}

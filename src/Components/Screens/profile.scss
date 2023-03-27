@@ -1,0 +1,31 @@
+.user-profile {
+    margin-top: 4em;
+    height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+}
+
+.user-profile img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.user-profile h1 {
+  font-weight: 700;
+  font-size: 34px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.user-profile p {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}

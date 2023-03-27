@@ -1,0 +1,335 @@
+
+.details_card{
+    // border: 2px solid gray;
+    // background-color: orangered;
+    // color: white;
+    height: 100%;
+    width: 60%;
+}
+.top{
+    // border: 2px solid black;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    div{
+        // outline: 1px solid rebeccapurple;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.result{
+    height: 100%;
+    // border: 1px solid rebeccapurple;
+    width: 40%;
+    // margin-left: ;
+    // padding: 35px;
+    font-size: 1.3em;
+    span{
+        align-self: flex-start;
+        margin-left: 42px;
+    }
+    h2{
+        margin: 0;
+        margin-left: 42px;
+        align-self: flex-start;
+        font-size: 2em;
+        font-weight: 700;
+    }
+    button{
+        align-self: flex-start;
+        width: 9em;
+        height: 35px;
+        font-size: 0.8em;
+        margin-left: 42px;
+        margin-top: 15px;
+    }
+}
+.budget-chart{
+        width: 60%;
+    height: 100%;   
+}
+.consumption_calories{
+    background-color: rgb(108 179 255);
+    flex-direction: row !important;
+    justify-content: space-evenly !important;
+    align-items: center !important;
+    width: 100% !important;
+    padding: 20px;
+    height: 100%;
+
+      progress::-webkit-progress-bar {
+            background-color: #eeeeee;
+            border-radius: 13px;
+        }
+        
+        progress::-webkit-progress-value {
+            background-color: black !important;
+            border-radius: 10px;
+        }
+        progress{
+            align-self: flex-start;
+            // back: black;
+            border-radius: 10px;
+
+            background-color: black !important;
+        width: 60%;
+        height: 20px;
+    }
+    .input-div{
+        // outline: 2px solid white;
+        width: 50%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+span{
+        font-size: 2em;
+        color: white;
+        font-weight: 600;
+    }
+    select{
+        width: 85%;
+        height: 20%;
+        border-radius: 8px;
+        border: none;
+        font-weight: 600;
+    }
+    }
+    
+}
+
+.filter_calories{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.skill{
+    width: 160px;
+    height: 160px;
+    // background-color: aqua;
+    position: relative;
+}
+.outer{
+    // height: 420px;
+    width: 150px;
+    border-radius: 50%;
+    // border: 1px solid bla;
+    // box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+    // -6px -6px 10px 1px #ffffff;
+}
+.inner{
+    height: 150px;
+    border-radius: 50%;
+    // border: 1px solid red;
+    // box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+    // inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+    // -0.5px -0.5px 0px rgba(255,255,255,1),
+    // 0.5px 0.5px 0px rgba(0,0,0,0.15),
+    // 0px 12px 10px rgba(0,0,0,0.05);
+    
+}
+#number{
+    font-weight: 600;
+    font-size: 1.4em;
+        color: rgb(29, 28, 28);
+    }
+
+circle{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 12px;
+    stroke-dasharray: 460; //total=460
+    // stroke-dashoffset: 100;
+}
+svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.calorie_item{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    // color: black;
+    color: black;
+    margin-bottom: 16px;
+    border-radius: 19px;
+    flex-direction: row;
+    border: 2px solid #007bff;
+    background-color: white;
+    height: 80px;
+
+    span{
+        width: 15%;
+        font-weight: 600;
+        font-size: 1em;
+    }
+
+}
+
+.action_btn{
+    background-color: rgb(108, 179, 255);
+    color: white;
+    width: 12%;
+    height: 50%;
+    border-radius: 10px;
+    border: none;
+
+    &:hover{
+        background-color: #0069d9;
+        color: white;
+        // border: none;
+    }
+}
+
+.loader{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50em;
+    border: 2px solid red;
+    i{
+        font-size: 3em;
+        color: #d13c00;
+    }
+}
+
+.overlap_container{
+position: absolute;
+    z-index: 2;
+    background-color: #f7f7f7;
+    background: black;
+    opacity: 0.5;
+    height: 108vh;
+    overflow-y: hidden  ;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+.edit_form{
+        border: 2px solid #0069d9;
+        height: 50%;
+        width: 40%;
+        z-index: 3;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-top: 200px;
+        margin-left: 550px;
+        color: white;
+        background-color: #4ea1f9;
+
+        button{
+            background-color: #6db0f9;
+            // border: 1px solid ;
+            border: none;
+            color: white;
+            &:hover{
+                background-color: white;
+                color: black;
+
+
+            }
+        }
+    }
+.filter_calories{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+    .form-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+//   margin-bottom: 10px;
+}
+
+label {
+  margin-right: 10px;
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(108, 179, 255);
+  color: #fff;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0069d9;
+}
+
+
+.calorie_tracker{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 75%;
+    // padding: 20px;
+    h2{
+        font-size: 2em;
+        margin-bottom: 1.5em;
+        font-weight: 600;
+        align-self: flex-start;
+    }
+    ul{
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+        height: 100%;
+
+        li{
+            margin: 0;
+            border-radius: 9px;
+            width: 100%;
+            height: 15%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #0069d9;
+            cursor: pointer;
+            border: none;
+            &:hover{
+                background-color: black ;
+            }
+            span{
+                // background-color: black;
+                font-size: 1.3em;
+                color: white;
+                width: 25%;
+            }
+            p{
+                display: inline;
+            }
+        }
+    }
+}

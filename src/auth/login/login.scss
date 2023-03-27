@@ -1,0 +1,99 @@
+.login_screen{
+    background-color: rgb(108, 179, 255);
+    background-image: url(https://images.unsplash.com/photo-1476820865390-c52aeebb9891?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 94vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    // border: 4px solid white;
+    border: none;
+    background-color: black;
+    height: 60%;
+    width: 30%;
+    border-radius: 59px;
+
+    div{
+        margin-top: 0px;
+        display: flex;
+        width: 65%;
+        height: 15%;
+        flex-direction: column;
+        input{
+            width: 100%;
+            font-size: 1em;
+            font-weight: 500;
+            // height: 35%;
+            // padding: 25px;
+            border: none;
+            border-bottom: 1px solid white;
+            color: white;
+            background: transparent;
+            &:focus{
+                border-bottom: 1px solid rgb(65, 170, 255);
+                outline: none;
+            }
+            &::placeholder{
+                // font-size: 1em;
+                // margin: 10px;
+                // color: white;
+            }
+        }
+        label{
+            color: white;
+            font-size: 1em;
+            margin-bottom: 20px;
+            margin-left: 0px;
+            }
+
+    }
+    button{
+        width: 50%;
+        background-color: rgb(108, 179, 255);
+        color: white;
+        height: 50px;
+        border-radius: 13px;
+        border: none; 
+        padding: 12px 24px; 
+        font-size: 16px;
+        cursor: pointer;
+        
+        &:disabled{
+            background-color: rgb(102, 102, 102);
+            cursor: not-allowed; 
+            &:hover{
+                background-color: rgb(102, 102, 102);
+                color: white;
+            }
+        }
+        
+        &:hover{
+            background-color: white;
+            color: black;
+            border: none;
+        }
+    }
+}
+}
+.fa {
+  margin-left: -12px;
+  margin-right: 8px;
+}
+.extra{
+    form{
+        height: 70%;
+    }
+}
+.footer{
+    padding: 10px;
+    div{
+        margin-top: 10px;
+        // border: 2px solid red;
+    }
+}
